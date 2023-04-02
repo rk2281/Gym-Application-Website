@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM FITNESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Playfair+Display&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Playfair Display', serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839087__480.jpg);
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red;   */
+        position: absolute;
+        left: 15px;
+        font-size: 12px;
+    }
+
+    .left img {
+        width: 50px;
+
+    }
+
+    .left div {
+        text-align: left;
+        line-height: 52px;
+        font-size: 14px;
+    }
+
+    .mid {
+        display: block;
+        width: 53%;
+        margin: 14px auto;
+        /* border: 2px solid green */
+
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        position: absolute;
+        top: 17px;
+        right: 20px;
+        padding: 5px;
+        font-size: 16px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 27px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 3px 2px;
+        background-color: black;
+        padding: 3px;
+        color: whitesmoke;
+        border: 3px solid grey;
+        border-radius: 8px;
+    }
+
+    .btn:hover {
+        background-color: rgb(226, 104, 104);
+        cursor: pointer;
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        margin: 277px 448px;
+        padding: 44px;
+        border-radius: 22px;
+        width: 23%;
+    }
+
+    .form.group input {
+        text-align: center;
+        display: block;
+        width: 240px;
+        padding: 8px;
+        margin: 11px 8px;
+    }
+
+    .container button {
+        display: block;
+        width: 84%;
+        margin: 18px 17px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://media.istockphoto.com/photos/white-silhouette-strenge-man-on-the-black-background-picture-id876895654"
+                alt="">
+            <div>FITNESS FORCE CLUB</div>
+        </div>
+        <!-- Mid class for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+        </div>
+        <!-- Right class for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>JOIN ONE OF THE BEST GYMS OF DELHI NOW:</h3>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Email address">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
